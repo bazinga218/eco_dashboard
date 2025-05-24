@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "1 Eco Data Dashboard\nWelcome to the Eco Data Dashboard! This site showcases environmental data visualizations.\nKey features:\n\nInteractive Plotly charts\n\nStatic Matplotlib plots\n\nLight/Dark theme toggle\n\nPDF export ready\n\nUse the navigation bar above to explore."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 About\nThe Eco Data Dashboard demonstrates how to build a Quarto website integrating:\n\nJupyter notebooks with static and interactive plots\n\nMarkdown pages for narrative content\n\nMulti-format outputs (HTML & PDF)\n\nCreated on 2025-05-24."
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "This notebook includes static and interactive plots.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Static plot: Temperature over time\ndays = np.arange(1, 31)\ntemp = 20 + 5 * np.sin(2 * np.pi * days / 30)\nplt.figure(figsize=(6,3))\nplt.plot(days, temp, marker='o')\nplt.title('Daily Temperature Variation')\nplt.xlabel('Day')\nplt.ylabel('Temperature (°C)')\nplt.show()\n\n\n\n\nCode\nimport pandas as pd\nimport plotly.express as px\n\n# Interactive scatter: CO2 vs Temperature\nnp.random.seed(0)\ndf = pd.DataFrame({\n    'CO2': np.random.rand(100) * 400 + 350,\n    'Temperature': 15 + 0.05 * np.random.randn(100) * 100\n})\nfig = px.scatter(df, x='CO2', y='Temperature', title='CO2 vs Temperature')\nfig.show()"
+  }
+]

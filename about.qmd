@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+# About
+
+The **Eco Data Dashboard** demonstrates how to build a Quarto website integrating:
+
+- Jupyter notebooks with static and interactive plots  
+- Markdown pages for narrative content  
+- Multi-format outputs (HTML & PDF)  
+
+_Created on 2025-05-24._

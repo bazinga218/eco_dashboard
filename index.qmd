@@ -1,0 +1,16 @@
+---
+title: "Home"
+---
+
+# Eco Data Dashboard
+
+Welcome to the **Eco Data Dashboard**! This site showcases environmental data visualizations.
+
+Key features:
+
+- Interactive Plotly charts  
+- Static Matplotlib plots  
+- Light/Dark theme toggle  
+- PDF export ready
+
+Use the navigation bar above to explore.
